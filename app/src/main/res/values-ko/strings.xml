@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">나의 티아카데미 연습용 안드로이드 애플리이션</string>
+
+    <string name="hello_world">안녕 세상아!</string>
+    <string name="action_settings">설정</string>
+</resources>

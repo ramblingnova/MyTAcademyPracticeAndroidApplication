@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tacademy.mytacademypracticeandroidapplication.WidgetActivity">
+
+    <TextView
+        android:id="@+id/activity_widget_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textColor="@color/text_selector"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/activity_widget_new_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_widget_text_view"
+        android:background="@drawable/button_selector"
+        android:text="new_button" />
+
+    <CheckBox
+        android:id="@+id/activity_widget_check_box1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/activity_widget_new_button"
+        android:layout_toRightOf="@id/activity_widget_new_button"
+        android:background="@drawable/check_box_selector"
+        android:button="@null"
+        android:text="check_box1" />
+
+    <CheckBox
+        android:id="@+id/activity_widget_check_box2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/activity_widget_check_box1"
+        android:layout_below="@id/activity_widget_check_box1"
+        android:layout_toRightOf="@id/activity_widget_check_box1"
+        android:background="@drawable/check_box_selector"
+        android:button="@null"
+        android:checked="true"
+        android:text="check_box2" />
+
+    <RadioGroup
+        android:id="@+id/activity_widget_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_widget_new_button"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/activity_widget_radio_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_selector"
+            android:button="@null"
+            android:checked="true"
+            android:text="radio_button1" />
+
+        <RadioButton
+            android:id="@+id/activity_widget_radio_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radio_selector"
+            android:button="@null"
+            android:text="radio_button2" />
+    </RadioGroup>
+
+    <ToggleButton
+        android:id="@+id/activity_widget_toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/activity_widget_radio_group"
+        android:layout_toRightOf="@id/activity_widget_radio_group"
+        android:background="@drawable/toggle_button_selector"
+        android:checked="true"
+        android:textOff="toggle_off"
+        android:textOn="toggle_on" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/activity_widget_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_widget_radio_group"
+        android:checked="true" />
+
+</RelativeLayout>

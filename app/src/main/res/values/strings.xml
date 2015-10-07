@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyTAcademyPracticeAndroidApplication</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_another">AnotherActivity</string>
+    <string name="title_activity_the_other">TheOtherActivity</string>
+    <string name="title_activity_linear_layout">LinearLayoutActivity</string>
+    <string name="title_activity_relative_layout">RelativeLayoutActivity</string>
+    <string name="title_activity_grid_layout">GridLayoutActivity</string>
+    <string name="title_activity_frame_layout">FrameLayoutActivity</string>
+    <string name="title_activity_scroll_view">ScrollViewActivity</string>
+    <string name="title_activity_widget">WidgetActivity</string>
+    <string name="title_activity_edit_text">EditTextActivity</string>
+    <string name="title_activity_header_footer_view">HeaderFooterViewActivity</string>
+
+</resources>

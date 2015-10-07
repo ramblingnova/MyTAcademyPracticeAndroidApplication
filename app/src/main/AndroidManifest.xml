@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tacademy.mytacademypracticeandroidapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AnotherActivity"
+            android:label="@string/title_activity_another" >
+        </activity>
+        <activity
+            android:name=".TheOtherActivity"
+            android:label="@string/title_activity_the_other" >
+        </activity>
+        <activity
+            android:name=".LinearLayoutActivity"
+            android:label="@string/title_activity_linear_layout" >
+        </activity>
+        <activity
+            android:name=".RelativeLayoutActivity"
+            android:label="@string/title_activity_relative_layout" >
+        </activity>
+        <activity
+            android:name=".GridLayoutActivity"
+            android:label="@string/title_activity_grid_layout" >
+        </activity>
+        <activity
+            android:name=".FrameLayoutActivity"
+            android:label="@string/title_activity_frame_layout" >
+        </activity>
+        <activity
+            android:name=".ScrollViewActivity"
+            android:label="@string/title_activity_scroll_view" >
+        </activity>
+        <activity
+            android:name=".WidgetActivity"
+            android:label="@string/title_activity_widget" >
+        </activity>
+        <activity
+            android:name=".EditTextActivity"
+            android:label="@string/title_activity_edit_text"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <activity android:name=".ImageViewActivity" >
+        </activity>
+        <activity android:name=".ProgressBarActivity" >
+        </activity>
+        <activity android:name=".ItemViewActivity" >
+        </activity>
+        <activity android:name=".SimpleListActivity" >
+        </activity>
+        <activity android:name=".SimpleItemViewActivity" >
+        </activity>
+        <activity
+            android:name=".HeaderFooterViewActivity"
+            android:label="@string/title_activity_header_footer_view"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".MultiItemTypeActivity" >
+        </activity>
+        <activity android:name=".ChoiceListActivity" >
+        </activity>
+        <activity android:name=".SampleExpandableListActivity" >
+        </activity>
+        <activity android:name=".SampleSpinnerActivity" >
+        </activity>
+        <activity android:name=".SampleGalleryActivity" >
+        </activity>
+        <activity android:name=".SampleFragmentActivity" >
+        </activity>
+        <activity android:name=".SampleFragmentTagActivity" >
+        </activity>
+        <activity android:name=".SampleFragmentTheOtherActivity" >
+        </activity>
+        <activity android:name=".SampleFragmentCallBackActivity" >
+        </activity>
+    </application>
+
+</manifest>
